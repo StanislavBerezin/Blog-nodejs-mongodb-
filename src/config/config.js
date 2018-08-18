@@ -1,7 +1,7 @@
 module.exports = {
   port: process.env.PORT || 8888,
   db:{
-    port: 'mongodb://Netcoll:White!Test@netcoll-shard-00-00-muxth.mongodb.net:27017,netcoll-shard-00-01-muxth.mongodb.net:27017,netcoll-shard-00-02-muxth.mongodb.net:27017/test?ssl=true&replicaSet=Netcoll-shard-0&authSource=admin',
+    port: '',
     password: '123'
   },
 
